@@ -62,7 +62,7 @@ const App: React.FC = () => {
         }`}
       >
         <div className="flex items-center gap-1 ml-[30px]">
-          <img src="/src/assets/gulugulu.png" width={"50px"} alt="" />
+          <img src="/gulugulu.png" width={"50px"} alt="" />
           <h1 className={`${mode === "light" ? "text-black" : "text-white"}`}>
             GuluGulu Flight
           </h1>
@@ -86,8 +86,8 @@ const App: React.FC = () => {
         style={{
           backgroundImage: `${
             mode === "light"
-              ? "url('/src/assets/light-theme.png')"
-              : "url('/src/assets/dark-theme.png')"
+              ? "url('/light-theme.png')"
+              : "url('/dark-theme.png')"
           }`
         }}
       >
